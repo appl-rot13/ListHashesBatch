@@ -5,7 +5,7 @@ set output_file=%~dp0\HashList.txt
 set algorithm=SHA1
 
 for /f "tokens=*" %%f in (
-  'dir %input_dir% /a-d /b /s'
+  'dir "%input_dir%" /a-d /b /s'
 ) do for /f %%h in (
   'certutil -hashfile "%%f" %algorithm% ^| findstr /v ":"'
-) do echo %%h %%f>>%output_file%
+) do echo %%h "%%f">>"%output_file%"
