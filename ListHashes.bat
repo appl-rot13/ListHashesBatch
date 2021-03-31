@@ -1,7 +1,7 @@
 @echo off
 
 set input_dir=%~dp0
-set output_file=HashList.txt
+set output_file=%~dp0\HashList.txt
 set algorithm=SHA1
 
 for /f "tokens=*" %%f in (
