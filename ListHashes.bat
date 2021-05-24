@@ -1,4 +1,5 @@
 @echo off
+chcp 65001
 
 set input_dir=%~dp0
 set output_file=%~dp0\HashList.txt
