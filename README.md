@@ -1,5 +1,7 @@
 [English](README.md) | [日本語](README.ja.md)
 
+***This repository has moved to [ListHashes](../../../ListHashes).***
+
 # List Hashes Batch
 
 A batch file to list hash values of all files in the directory.

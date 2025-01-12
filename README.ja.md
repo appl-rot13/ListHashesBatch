@@ -1,5 +1,7 @@
 [English](README.md) | [日本語](README.ja.md)
 
+***本リポジトリは [ListHashes](../../../ListHashes) に移動しました。***
+
 # List Hashes Batch
 
 フォルダ内のファイルのハッシュ値をリスト出力するバッチ。
